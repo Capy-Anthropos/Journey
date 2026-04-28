@@ -1,19 +1,23 @@
-Title: Plain Text Demo
+# Plain Text Demo
 
 This document demonstrates the converter input format.
 
-Section: Features
+## Features
+
 - Detects section labels
 - Preserves bullets
 - Converts numbered lists
 - Keeps indented code blocks
 - Handles block quotes
 
-Section: Example List
+## Example List
+
 1. First item
 2. Second item
 3. Third item
 
 > This is a quoted note.
 
-    print("Hello from a code block")
+```python
+print("Hello from a code block")
+```
